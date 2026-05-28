@@ -7,7 +7,10 @@ node_modules/
 .expo/
 dist/
 web-build/
-expo-env.d.ts
+
+# Generated type declarations (keep our custom SVG types)
+*.d.ts
+!declarations.d.ts
 
 # Native
 .kotlin/
